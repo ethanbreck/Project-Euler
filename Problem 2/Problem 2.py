@@ -1,5 +1,7 @@
-even=int(0)
-first=int(1)
-second=int(2)
+even=0
+first=1
+second=2
 
-while even !=3524590
+while even !=3524590:
+	first+second
+	print(even)
