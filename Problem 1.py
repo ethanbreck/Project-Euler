@@ -11,5 +11,5 @@ while x!= 999:
 	check = x % 5
 	print(check)
 	if check == 0:
-		unsued + x
-		else sum + x
+		unsued += x
+		else sum += x:
