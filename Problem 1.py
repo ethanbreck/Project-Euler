@@ -9,7 +9,8 @@ unused = int(0)
 while x!= 999:
 	x+=3
 	check = x % 5
-	print(check)
 	if check == 0:
-		unsued += x
-		else sum += x:
+		unused += x
+	else: 
+		sum += x
+print(sum)
