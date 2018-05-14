@@ -13,4 +13,10 @@ while x!= 999:
 		unused += x
 	else: 
 		sum += x
+print(sum) 
+
+while y!=995:
+	y+=5
+	sum += y
+	
 print(sum)
