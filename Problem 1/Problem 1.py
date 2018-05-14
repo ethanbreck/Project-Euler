@@ -1,24 +1,21 @@
-## X is for all the multiples of 3, y is for all the multiples of 5, check's job is to remove the multiples of 5
-## from the multiples of 3, and sum is the sums of x and y 
+## X is for all the multiples of 3, y is for all the multiples of 5, check's job is to remove the multiples of 5, from the multiples of 3, and sum is the sums of x and y
 ## for Project Euler Problem 1
 
-x = int(0)
-y = int(0)
+three = int(0)
+five = int(0)
 check = int(0)
-sum = int(0)
-unused = int(0)
+total = int(0)
 
-while x!= 999:
-	x+=3
-	check = x % 5
-	if check == 0:
-		unused += x
-	else: 
-		sum += x
-print(sum) 
 
-while y!=995:
-	y+=5
-	sum += y
-	
-print(sum)
+while three!= 999:
+	three+=3
+	check = three % 5
+	if check != 0:
+		total += three
+print(total)
+
+while five!=995:
+	five+=5
+	total += five
+
+print(total)
