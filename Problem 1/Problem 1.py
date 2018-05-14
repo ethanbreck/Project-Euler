@@ -1,5 +1,7 @@
 ## X is for all the multiples of 3, y is for all the multiples of 5, check's job is to remove the multiples of 5
 ## from the multiples of 3, and sum is the sums of x and y 
+## for Project Euler Problem 1
+
 x = int(0)
 y = int(0)
 check = int(0)
