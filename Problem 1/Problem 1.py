@@ -3,14 +3,14 @@
 
 three = int(0)
 five = int(0)
-check = int(0)
+check_five = int(0)
 total = int(0)
 
 
 while three!= 999:
 	three+=3
-	check = three % 5
-	if check != 0:
+	check_five = three % 5
+	if check_five != 0:
 		total += three
 print(total)
 
