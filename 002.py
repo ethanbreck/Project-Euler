@@ -1,10 +1,12 @@
 
-def fib(max):
-    the = 0
-    them = 1
+def fib():
+    x = 0
+    y = 1
     while True:
         yield x
-        the, them = them, the + them
+        x, y = y, x + y
 
 
-print(the)
+for fib in range(4000000):
+    sum(fib)
+    print(sum)
