@@ -1,4 +1,10 @@
-##For problem 2 of project euler
-even=0
-first=1
-second=2
+
+def fib(max):
+    the = 0
+    them = 1
+    while True:
+        yield x
+        the, them = them, the + them
+
+
+print(the)
