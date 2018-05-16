@@ -1,7 +1,10 @@
 def fib(n):
     a, b = 0, 1
-    for i in range(n-1):
+    while a < n:
+        yield a
         a = b
         b = a+b
-        return a
-        print(fib(400))
+        print(a)
+
+
+print(fib(10))
