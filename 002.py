@@ -1,10 +1,13 @@
-def fib(n):
-    a, b = 0, 1
-    while a < n:
+def fib(i):
+    old_a = 0
+    a = 0
+    b = 1
+    while a < i:
         yield a
+        old_a = a
         a = b
-        b = a+b
+        b = old_a+b
         print(a)
 
 
-print(fib(10))
+print(fib(100))
