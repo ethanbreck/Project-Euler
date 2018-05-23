@@ -1,9 +1,11 @@
 def fib(n):
     a, b = 0, 1
+    old_a = 0
     while a < n:
+        old_a = a
         a, b = b, a + b
-        print(a)
-    return a
+        print(old_a)
+    return old_a
 
 
-print(fib(15))
+print(fib(40))
