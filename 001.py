@@ -1,8 +1,17 @@
-'''For project Euler project 1'''
+three = int(0)
+five = int(0)
+check = int(0)
+total = int(0)
 
-total = 0
-for num in range(1000):
-	if num % 3 == 0 or num % 5 == 0:
-		print(num)
-		total = total + num
-print total:
+
+while three!= 999:
+	three+=3
+	check = three % 5
+	if check != 0:
+		total += three
+
+while five!=995:
+	five+=5
+	total += five
+
+print(total)
