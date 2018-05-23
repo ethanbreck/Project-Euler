@@ -2,6 +2,8 @@ def fib(n):
     a, b = 0, 1
     while a < n:
         a, b = b, a + b
+        print(a)
+    return a
 
 
-if fib(4000000) % 2 == 0:
+print(fib(15))
